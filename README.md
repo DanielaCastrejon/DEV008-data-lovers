@@ -220,6 +220,8 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
+![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/a2465263-a515-4821-b292-55cd3c5825f3)
+
 - [ ] **Seguir los principios básicos de diseño visual**
 
 ### Investigación
