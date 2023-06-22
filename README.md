@@ -4,7 +4,7 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen de Game Of Thrones ](#2-resumen-)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+ * [3. Diseño de Producto ](#3-Diseño-)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
@@ -35,11 +35,11 @@ usuarias, al lado derecho.
 ## 2. Resumen de Game of Thrones 
 
 El fenómeno de Juego de Tronos traspasa las páginas de la obra de George R. Martin para entrar por la puerta grande de nuestras pantallas. Gracias al boca a boca y a una gran campaña de marketing, gente ajena al fenómeno literario decidió probar suerte y se encontró con un producto de calidad, apadrinado por la cadena norteamericana HBO, donde David Benioff y D.B. Weiss, adaptan las novelas de la saga. El Juego convence a la legión de fans de la saga literaria, a la vez que despoja de prejuicios a los detractores de la fantasía épica.
+![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/bd795702-ff8d-4bd2-b1ee-c9b1b2fbe2af)
 
-![GoTPortada-scaled]
+
 ## 3. Objetivos de aprendizaje
 
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
 ### HTML
 
@@ -216,11 +216,20 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
 
-### Diseño de producto
+# 3 Diseño de producto
 
-- [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
+- [ ] **Crear prototipos de baja fidelidad que incluyan interacciones**
+- [ Comenzamos haciendo protitipos de baja fidelidad para poder tener una idea base de como es que queriamos tener nuestra página, comenzamos con un diseño bastante organico y sencillo en el que nos dimos una idea clara para comenzar a hacer el diseño en HTML y tener el esqueleto de nuestro proyecto] 
+- [ ] ![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/a2465263-a515-4821-b292-55cd3c5825f3)
+- [ ] ![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/5b62f9fb-087e-40bf-9063-8cfc59952224)
 
-![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/a2465263-a515-4821-b292-55cd3c5825f3)
+
+- [ ] - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
+Cuando tuvimos nuestro diseño de baja fidelidad, comenzamos a hacer los diseños de alta fidelidad para tener más clara la paleta de colores, espacios, imagenes, cosas que queriamos aplicar y que diseño ibamos a mantener para poder crearlo y pensar en las funciones más báscias hasta darle las funcinalidades reales en JS una vez que comenzamos con el código.
+
+Aquí nuestros prototipos de alta fidelidad que hicimos con Figma [https://www.figma.com/file/cwXuGWBvP0eq8J6NDjjDuI/Untitled?type=design&node-id=0-1&mode=design&t=hLlOiQw6vT1vp3BE-0]
+[]![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/290a9c3b-e87a-4ab7-9638-29ccc7ef1811)
+
 
 - [ ] **Seguir los principios básicos de diseño visual**
 
