@@ -4,8 +4,8 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen de Game Of Thrones ](#2-resumen-)
- * [3. Diseño de Producto ](#3-Diseño-)
-* [4. Consideraciones generales](#4-consideraciones-generales)
+* [3. Diseño de Producto ](#3-Diseño-)
+* [4. Pruebas  Unitarias ](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
@@ -16,163 +16,32 @@
 
 ## 1. Preámbulo
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
-
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
-
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por las
-usuarias, al lado derecho.
-
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
-
 ## 2. Resumen de Game of Thrones 
 
 El fenómeno de Juego de Tronos traspasa las páginas de la obra de George R. Martin para entrar por la puerta grande de nuestras pantallas. Gracias al boca a boca y a una gran campaña de marketing, gente ajena al fenómeno literario decidió probar suerte y se encontró con un producto de calidad, apadrinado por la cadena norteamericana HBO, donde David Benioff y D.B. Weiss, adaptan las novelas de la saga. El Juego convence a la legión de fans de la saga literaria, a la vez que despoja de prejuicios a los detractores de la fantasía épica.
 ![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/bd795702-ff8d-4bd2-b1ee-c9b1b2fbe2af)
 
 
-## 3. Objetivos de aprendizaje
+## 3. Diseño de Proyecto
+- [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
 
 
-### HTML
+- [ ] **Crear prototipos de baja fidelidad que incluyan interacciones**
+- [ Comenzamos haciendo protitipos de baja fidelidad para poder tener una idea base de como es que queriamos tener nuestra página, comenzamos con un diseño bastante organico y sencillo en el que nos dimos una idea clara para comenzar a hacer el diseño en HTML y tener el esqueleto de nuestro proyecto] 
+- [ ] ![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/a2465263-a515-4821-b292-55cd3c5825f3)
+- [ ] ![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/5b62f9fb-087e-40bf-9063-8cfc59952224)
 
-- [ ] **Uso de HTML semántico**
 
-  <details><summary>Links</summary><p>
+- [ ] - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
+Cuando tuvimos nuestro diseño de baja fidelidad, comenzamos a hacer los diseños de alta fidelidad para tener más clara la paleta de colores, espacios, imagenes, cosas que queriamos aplicar y que diseño ibamos a mantener para poder crearlo y pensar en las funciones más báscias hasta darle las funcinalidades reales en JS una vez que comenzamos con el código.
 
-  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
-  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
+Aquí nuestros prototipos de alta fidelidad que hicimos con Figma [https://www.figma.com/file/cwXuGWBvP0eq8J6NDjjDuI/Untitled?type=design&node-id=0-1&mode=design&t=hLlOiQw6vT1vp3BE-0]
+[]![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/290a9c3b-e87a-4ab7-9638-29ccc7ef1811)
 
-### CSS
 
-- [ ] **Uso de selectores de CSS**
 
-  <details><summary>Links</summary><p>
 
-  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
-</p></details>
-
-- [ ] **Modelo de caja (box model): borde, margen, padding**
-
-  <details><summary>Links</summary><p>
-
-  * [Box Model & Display](https://curriculum.laboratoria.la/es/topics/css/01-css/02-boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
-
-- [ ] **Uso de flexbox en CSS**
-
-  <details><summary>Links</summary><p>
-
-  * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  * [Flexbox Froggy](https://flexboxfroggy.com/#es)
-  * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-</p></details>
-
-### Web APIs
-
-- [ ] **Uso de selectores del DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Manipulación del DOM](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
-  * [Introducción al DOM - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
-
-- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
-
-  <details><summary>Links</summary><p>
-
-  * [Introducción a eventos - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener)
-  * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
-</p></details>
-
-- [ ] **Manipulación dinámica del DOM**
-
-  <details><summary>Links</summary><p>
-
-  * [Introducción al DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
-</p></details>
-
-### JavaScript
-
-- [ ] **Diferenciar entre tipos de datos primitivos y no primitivos**
-
-- [ ] **Arrays (arreglos)**
-
-  <details><summary>Links</summary><p>
-
-  * [Arreglos](https://curriculum.laboratoria.la/es/topics/javascript/04-arrays)
-  * [Array - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/)
-  * [Array.prototype.sort() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-  * [Array.prototype.forEach() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  * [Array.prototype.map() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  * [Array.prototype.filter() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  * [Array.prototype.reduce() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-</p></details>
-
-- [ ] **Objetos (key, value)**
-
-  <details><summary>Links</summary><p>
-
-  * [Objetos en JavaScript](https://curriculum.laboratoria.la/es/topics/javascript/05-objects/01-objects)
-</p></details>
-
-- [ ] **Variables (declaración, asignación, ámbito)**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores, tipos de datos y operadores](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types)
-  * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
-</p></details>
-
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
-
-  <details><summary>Links</summary><p>
-
-  * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/01-conditionals-and-loops)
-  * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
-
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
-
-  <details><summary>Links</summary><p>
-
-  * [Bucles (Loops)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/02-loops)
-  * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
-
-- [ ] **Funciones (params, args, return)**
-
-  <details><summary>Links</summary><p>
-
-  * [Funciones (control de flujo)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/03-functions)
-  * [Funciones clásicas](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/01-classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/02-arrow)
-  * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
-
-- [ ] **Pruebas unitarias (unit tests)**
+## 4. Pruebas Unitarias
 
   <details><summary>Links</summary><p>
 
@@ -214,21 +83,7 @@ El fenómeno de Juego de Tronos traspasa las páginas de la obra de George R. Ma
 
 ### Centrado en el usuario
 
-- [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
 
-# 3 Diseño de producto
-
-- [ ] **Crear prototipos de baja fidelidad que incluyan interacciones**
-- [ Comenzamos haciendo protitipos de baja fidelidad para poder tener una idea base de como es que queriamos tener nuestra página, comenzamos con un diseño bastante organico y sencillo en el que nos dimos una idea clara para comenzar a hacer el diseño en HTML y tener el esqueleto de nuestro proyecto] 
-- [ ] ![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/a2465263-a515-4821-b292-55cd3c5825f3)
-- [ ] ![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/5b62f9fb-087e-40bf-9063-8cfc59952224)
-
-
-- [ ] - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
-Cuando tuvimos nuestro diseño de baja fidelidad, comenzamos a hacer los diseños de alta fidelidad para tener más clara la paleta de colores, espacios, imagenes, cosas que queriamos aplicar y que diseño ibamos a mantener para poder crearlo y pensar en las funciones más báscias hasta darle las funcinalidades reales en JS una vez que comenzamos con el código.
-
-Aquí nuestros prototipos de alta fidelidad que hicimos con Figma [https://www.figma.com/file/cwXuGWBvP0eq8J6NDjjDuI/Untitled?type=design&node-id=0-1&mode=design&t=hLlOiQw6vT1vp3BE-0]
-[]![image](https://github.com/DanielaCastrejon/DEV008-data-lovers/assets/131560414/290a9c3b-e87a-4ab7-9638-29ccc7ef1811)
 
 
 - [ ] **Seguir los principios básicos de diseño visual**
